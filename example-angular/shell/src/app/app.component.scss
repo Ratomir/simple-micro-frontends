@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0;
+  min-height: calc(100vh - 103px);
+  height: calc(100vh - 103px);
+}
+
+.content {
+  display: flex;
+  height: 100%;
+}
+
+app-navbar {
+  width: 160px;
+  min-width: 160px;
+  border-right: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+.page-content {
+  padding: 20px;
+  width: 100%;
+  overflow: auto;
+  background-color: #F9F9F9;
+}
